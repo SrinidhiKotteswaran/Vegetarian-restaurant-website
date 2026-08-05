@@ -38,26 +38,6 @@ https://67a7f35fe493bd70c9b30035--clever-salamander-2045b1.netlify.app/
 - File organization and project structure
 - Website deployment and hosting
 - Client-focused design thinking
-
-## Project Structure
-├── index.html
-├── about.html
-├── menu.html
-├── blog.html
-├── assets/
-│ ├── css/
-│ └── images/
-├── images/
-├── js/
-│ └── script.js
-├── screenshots/
-│ ├── homepage.png
-│ ├── about.png
-│ ├── menu.png
-│ ├── blog.png
-│ ├── mobile-nav.png
-│ └── mobile-menu.png
-└── favicon.svg
  
 ## Development Process
 
@@ -101,7 +81,7 @@ https://github.com/SrinidhiKotteswaran
 
 ### Homepage
 
-![Homepage](screenshots/homepage.png)
+![Homepage Screenshot](screenshots/homepage.png)
 
 ### Menu Page
 
