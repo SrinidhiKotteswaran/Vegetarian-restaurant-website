@@ -41,7 +41,7 @@ https://67a7f35fe493bd70c9b30035--clever-salamander-2045b1.netlify.app/
 
 ## Project Structure
 ├── index.html
-├── about us.html
+├── about.html
 ├── menu.html
 ├── blog.html
 ├── assets/
@@ -50,6 +50,13 @@ https://67a7f35fe493bd70c9b30035--clever-salamander-2045b1.netlify.app/
 ├── images/
 ├── js/
 │ └── script.js
+├── screenshots/
+│ ├── homepage.png
+│ ├── about.png
+│ ├── menu.png
+│ ├── blog.png
+│ ├── mobile-nav.png
+│ └── mobile-menu.png
 └── favicon.svg
  
 ## Development Process
@@ -89,3 +96,27 @@ Interested in computer science, artificial intelligence, and building technology
 
 GitHub:
 https://github.com/SrinidhiKotteswaran
+
+## Screenshots
+
+### Homepage
+
+![Homepage](screenshots/homepage.png)
+
+### Menu Page
+
+![Menu](screenshots/menu.png)
+
+### About Page
+
+![About Page](screenshots/about.png)
+
+### Blog Page
+
+![Blog Page](screenshots/blog.png)
+
+### Mobile Responsive Design
+
+![Mobile Navigation](screenshots/mobile-nav.png)
+
+![Mobile Menu](screenshots/mobile-menu.png)
