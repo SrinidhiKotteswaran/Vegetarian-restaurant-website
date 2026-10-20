@@ -1,148 +1,70 @@
-# Vegetarian Restaurant Website
+# Garam Gourmé — Vegetarian Restaurant Website
 
-A responsive multi-page restaurant website designed and developed for a plant-based restaurant concept. I built the interface from the ground up with a focus on visual design, responsive behavior, usability, and turning a static concept into a complete deployed website.
+A responsive, multi-page website for a vegetarian restaurant concept. The project combines restaurant branding and content with a desktop/mobile interface for browsing the menu, learning about the restaurant, and reading food-related posts.
 
-## Live Demo
+**[Open the deployed preview](https://67a7f35fe493bd70c9b30035--clever-salamander-2045b1.netlify.app/)** · [Source code](https://github.com/SrinidhiKotteswaran/Vegetarian-restaurant-website)
 
-**[View the live website](https://67a7f35fe493bd70c9b30035--clever-salamander-2045b1.netlify.app/)**
+> **Project note:** The repository's source identifies an existing CodeWithSadee restaurant template as a starting point. This project should be understood as a customized website/template adaptation, not as a claim that every component was designed from a blank file. Preserve any applicable original-template attribution when redistributing the source.
 
-## Project Overview
+## Pages and features
 
-The site is organized as a complete restaurant experience rather than a single landing page, with a homepage, menu, about section, blog content, and responsive mobile navigation.
-
-The project gave me a chance to work through the full front-end workflow: structuring pages, designing reusable visual patterns, handling responsive layouts, organizing assets, adding interaction, and deploying the finished product.
-
-## Features
-
-- Responsive layouts across desktop and mobile screens
-- Multi-page navigation and structured content hierarchy
-- Custom restaurant menu interface
-- About and informational sections
-- Restaurant-focused blog section
-- Custom CSS styling and visual components
-- Interactive JavaScript elements
-- Organized image and asset management
-- Public deployment through Netlify
-
-## Technologies
-
-- **HTML5** — semantic page structure
-- **CSS3** — responsive layouts, visual styling, and components
-- **JavaScript** — interactive behavior
-- **Netlify** — deployment and hosting
+- Homepage with restaurant branding and featured content
+- Menu page for browsing vegetarian offerings
+- About page with restaurant information
+- Blog page with food-related content
+- Responsive navigation for smaller screens
+- Shared visual styling, imagery, and page-specific layouts
+- JavaScript-driven interface interactions
 
 ## Screenshots
 
-The screenshots below show the main user-facing experience across desktop and mobile layouts.
+### Homepage
+<img src="screenshots/homepage.png" alt="Garam Gourmé homepage" width="900">
 
-### Desktop Experience
-
-#### Homepage
-
-The primary landing experience establishes the restaurant's visual identity and guides visitors into the rest of the site.
-
-<p align="center">
-  <img src="screenshots/homepage.png" alt="Vegetarian restaurant website homepage" width="850">
-</p>
-
-#### Menu & About
-
+### Menu and about pages
 <table>
   <tr>
-    <td width="50%" align="center">
-      <strong>Menu</strong><br><br>
-      <img src="screenshots/menu.png" alt="Restaurant menu page" width="100%">
-    </td>
-    <td width="50%" align="center">
-      <strong>About</strong><br><br>
-      <img src="screenshots/about.png" alt="Restaurant about page" width="100%">
-    </td>
+    <td width="50%" align="center"><strong>Menu</strong><br><br><img src="screenshots/menu.png" alt="Restaurant menu page" width="100%"></td>
+    <td width="50%" align="center"><strong>About</strong><br><br><img src="screenshots/about.png" alt="Restaurant about page" width="100%"></td>
   </tr>
 </table>
 
-#### Blog
+### Blog
+<img src="screenshots/blog.png" alt="Restaurant blog page" width="900">
 
-The blog page extends the site beyond the core restaurant information into a content-focused experience.
-
-<p align="center">
-  <img src="screenshots/blog.png" alt="Restaurant blog page" width="850">
-</p>
-
-### Responsive Design
-
-The interface was designed to adapt to smaller screens, including a mobile navigation experience and a responsive menu layout.
-
+### Mobile layout
 <table>
   <tr>
-    <td width="50%" align="center">
-      <strong>Mobile Navigation</strong><br><br>
-      <img src="screenshots/mobile-nav.png" alt="Restaurant website mobile navigation" width="280">
-    </td>
-    <td width="50%" align="center">
-      <strong>Mobile Menu</strong><br><br>
-      <img src="screenshots/mobile-menu.png" alt="Restaurant website mobile menu" width="280">
-    </td>
+    <td width="50%" align="center"><strong>Mobile navigation</strong><br><br><img src="screenshots/mobile-nav.png" alt="Mobile navigation" width="280"></td>
+    <td width="50%" align="center"><strong>Mobile menu</strong><br><br><img src="screenshots/mobile-menu.png" alt="Mobile menu page" width="280"></td>
   </tr>
 </table>
 
-## Technical Skills Demonstrated
+## Technology
 
-### Front-End Development
+- HTML5
+- CSS3
+- JavaScript
+- Netlify deployment
 
-- Semantic HTML structure
-- CSS layout and responsive design
-- JavaScript-driven interactions
-- Multi-page site architecture
-- Reusable visual patterns
+The site is built as a collection of linked HTML pages with CSS styling and JavaScript interactions rather than a React application.
 
-### UI / UX
+## Run locally
 
-- Visual hierarchy and information architecture
-- Responsive navigation
-- Desktop-to-mobile adaptation
-- Readable content organization
-- Designing around the user's path through the site
+No build step is required. Clone or download the repository and open `index.html` in a browser. For more reliable local testing of relative paths and page navigation, serve the folder with a simple local HTTP server.
 
-### Deployment
+## Development focus
 
-- Production deployment through Netlify
-- Organizing assets for a deployable project
-- Maintaining a publicly accessible front-end application
+The work centers on adapting the template into a coherent restaurant concept, organizing multiple pages and shared assets, and refining the interface for smaller screens. The screenshots document the actual page layouts in the repository.
 
-## Development Process
+## Possible next improvements
 
-I approached the project as a complete product rather than a collection of individual pages. I first established the restaurant's visual direction and page structure, then implemented the core layouts and navigation before refining responsive behavior and interactive elements.
-
-A major part of the process was making the same content work across substantially different screen sizes. The mobile screenshots show the resulting navigation and menu adaptations rather than simply presenting a scaled-down desktop page.
-
-## Engineering Reflection
-
-This project strengthened my understanding of the gap between making a page *look good* and building a usable front-end product.
-
-I learned to think about:
-
-- How page structure affects navigation and usability
-- How CSS decisions propagate across multiple screen sizes
-- How to organize assets and pages so a project remains maintainable
-- How visual design and technical implementation influence each other
-- What changes are necessary when moving from a desktop-first view to mobile
-- How to take a project from local development to a public deployment
-
-## Future Improvements
-
-If I continued developing the project, I would add:
-
-- A functional restaurant reservation flow
-- More interactive menu features
-- Expanded accessibility testing and improvements
-- Additional performance optimization
-- Analytics for understanding user behavior
-- Integration with external web services
+- Audit keyboard navigation and color contrast
+- Improve metadata and page titles for consistency
+- Replace any placeholder contact details with clearly labeled fictional content
+- Add a functional reservation flow only if a real backend or booking provider is connected
+- Recheck the deployed preview URL periodically
 
 ## Developer
 
-**Srinidhi Kotteswaran**
-
-Interested in computer science, artificial intelligence, and building technology-driven solutions.
-
-[GitHub](https://github.com/SrinidhiKotteswaran)
+[Srinidhi Kotteswaran](https://github.com/SrinidhiKotteswaran)
