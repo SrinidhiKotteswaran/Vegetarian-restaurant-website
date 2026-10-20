@@ -2,7 +2,7 @@
 
 A responsive, multi-page website for a vegetarian restaurant concept. The project combines restaurant branding and content with a desktop/mobile interface for browsing the menu, learning about the restaurant, and reading food-related posts.
 
-**[Open the deployed preview](https://67a7f35fe493bd70c9b30035--clever-salamander-2045b1.netlify.app/)** · [Source code](https://github.com/SrinidhiKotteswaran/Vegetarian-restaurant-website)
+**[Open the Netlify preview](https://67a7f35fe493bd70c9b30035--clever-salamander-2045b1.netlify.app/)** · [Source code](https://github.com/SrinidhiKotteswaran/Vegetarian-restaurant-website)
 
 > **Project note:** The repository's source identifies an existing CodeWithSadee restaurant template as a starting point. This project should be understood as a customized website/template adaptation, not as a claim that every component was designed from a blank file. Preserve any applicable original-template attribution when redistributing the source.
 
@@ -55,15 +55,13 @@ No build step is required. Clone or download the repository and open `index.html
 
 ## Development focus
 
-The work centers on adapting the template into a coherent restaurant concept, organizing multiple pages and shared assets, and refining the interface for smaller screens. The screenshots document the actual page layouts in the repository.
+The work centers on adapting the template into a coherent restaurant concept, organizing multiple pages and shared assets, and refining the interface for smaller screens. The screenshots document the page layouts currently stored in the repository.
 
-## Possible next improvements
+## Scope and limitations
 
-- Audit keyboard navigation and color contrast
-- Improve metadata and page titles for consistency
-- Replace any placeholder contact details with clearly labeled fictional content
-- Add a functional reservation flow only if a real backend or booking provider is connected
-- Recheck the deployed preview URL periodically
+Garam Gourmé is a fictional restaurant concept, not an operating business. The site has no live reservation backend, customer-service line, or operational restaurant contact details. Contact-style elements are illustrative only.
+
+The source is adapted from an existing CodeWithSadee restaurant template. Keep appropriate upstream attribution and review the original template's license before redistributing or reusing its assets.
 
 ## Developer
 
